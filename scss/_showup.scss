@@ -1,0 +1,28 @@
+.show-up-content {
+    background-color: transparent;
+    padding-bottom: 2em;
+    h3 {
+        padding: 1em .25em .25em .25em; 
+    }
+    p {
+        padding: 0 .25em 1em .25em;
+    }
+    .tab-content {
+        .tab-pane {
+            padding-top: 4em;
+            .row {
+                div.topics {
+                    
+                    .desc-displayed {
+                        margin-top: 45%;
+                        h2 {
+                            padding-bottom: 5%;
+                            font-size: 3.5em;
+                            font-weight: normal;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,44 @@
+.footer {
+    background-color: #edeff2; //#b4bfc6
+    .container-fluid {
+        .row {
+            .col-lg-10 {
+                .left-footer {
+                    .row {
+                        .col-lg-2 {
+                            padding-top: 1.75em;
+                        }
+                        .col-lg-10 {
+                            ul {
+                                margin: 1em;
+                                display: inline-flex;
+                                li {
+                                    padding: 1em;
+                                    a {
+                                        font-size: .8em;
+                                        font-weight: bold;
+                                        color: #555;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .col-lg-2 {
+                form {
+                    margin-top: 1.5em;
+                    .form-control {
+                        font-size: .75em;
+                    }
+                }
+            }
+        }
+    }
+}
+.col-sm-12 {
+    padding: 0;
+}
+@media (max-width:900px) {
+    
+}

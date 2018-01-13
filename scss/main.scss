@@ -1,0 +1,96 @@
+@import 'variables';
+/*** Start Global Properties ***/
+html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Cairo', sans-serif;
+}
+*, img {
+    max-width: 100%;
+}
+img {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.row {
+    padding: 0;
+    margin: 0;
+}
+button {
+    cursor: pointer;
+}
+a {
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: $baseFont;
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    .active {
+    border-bottom: 2px solid #316cb3;
+        a {
+            border-right: none;
+        }
+    
+        i {
+            color: #316cb3;   
+        }
+    }
+}
+@mixin shadow($wide-shade) {
+    -webkit-box-shadow:     $wide-shade;
+       -moz-box-shadow:     $wide-shade;
+            -ms-shadow:     $wide-shade;
+            box-shadow:     $wide-shade;
+}
+
+/*** End Global Properties ***/
+
+/*** Start Upper-Header ***/
+@import '_upper-header';
+/*** End Upper-Header ***/
+
+/*** Start Carousel ***/
+@import '_carousel';
+/*** End Carousel ***/
+
+/*** Start Divisions ***/
+@import '_divisions';
+/*** End Divisions ***/
+
+/*** Start NavTabs ***/
+@import '_navtabs';
+/*** End Navtabs ***/
+
+/*** Start Showup ***/
+@import '_showup';
+/*** End Showup ***/
+
+/*** Start About Us ***/
+@import '_about-us';
+/*** End About Us ***/
+@import '_smiles.scss';
+/*** Start Pricing ***/
+@import '_pricing';
+/*** End Pricing ***/
+
+/*** Start Footer ***/
+@import '_footer';
+/*** End Footer ***/
+
+.clearfix {
+    content: "";
+    display: table;
+}
+button:focus {
+    outline: none;
+}

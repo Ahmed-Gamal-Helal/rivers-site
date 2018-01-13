@@ -1,0 +1,26 @@
+.division-dep {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    .container {
+        .row {
+            .col-lg-6 {
+                .first-divison-dep,
+                .sec-divison-dep {
+                    @include shadow(4px 4px 3px rgba(0, 0, 0, .2));
+                    padding: 1em;
+                    background-color: #FFF;
+                    border: .5px solid #EEE;
+                    margin-bottom: 1em;
+                    margin: .75em;    
+                    .row {
+                        .col-lg-6, .col-lg-9 {
+                            .description-photo {
+                                margin-bottom: 2em;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
