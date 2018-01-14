@@ -13,7 +13,8 @@
         <link rel="stylesheet" href="css/bootstrap.min.css" />
         <!-- Normalize Css -->
         <link rel="stylesheet" href="css/normalize.css" />
-
+        <!-- AOS -->
+        <link rel="stylesheet" href="css/aos.css" />
         <!-- Styling File -->
         <link rel="stylesheet" href="css/main.css" />
     </head>
@@ -51,7 +52,6 @@
             </div>
           </div>	
         </nav>
-
         <!-- End Navbar -->
 
         <!-- Start Carousel -->
@@ -132,6 +132,25 @@
         </div>
         <!-- End Divisions -->
 
+        <!-- Start Smiles-2 Department -->
+        <div class="smiles-2">
+            <div class="container">
+              <div class="overlay">
+                  <h2>About Us</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Etiam facilisis, nibh eu venenatis gravida, ipsum lacus iaculis nulla,  
+                    Sed sollicitudin nec sapien vel pellentesque. Sed a nunc id dui dictum convallis a vel lorem.
+                     Maecenas id ipsum at nunc dapibus consequat. 
+                    Integer vestibulum scelerisque sapien, vel scelerisque dolor porttitor at their career and financial goals.
+                    </p>
+                  <a href="#">
+                    Reasons to Join
+                  </a>
+                </div>  
+            </div>
+          </div>
+        <!-- End Smiles-2 Department -->
+
         <!-- Start Show Up Data -->
           <div class="container show-up-content">
             <h3 class="text-center">Come on, get appy!</h3>
@@ -147,12 +166,12 @@
               <div id="home" class="tab-pane active">
                 <div class="row">
                   <div class="col-lg-7 col-md-7 col-sm-12">
-                    <div class="photo-displayed text-center">
+                    <div class="photo-displayed text-center" data-aos = "fade-right" data-aos-duration = "2000">
                       <img src="images/01.png" alt="mobile"/>
                     </div>
                   </div>
                   <div class="col-lg-5 col-md-5 col-sm-12 topics">
-                    <div class="desc-displayed">
+                    <div class="desc-displayed" data-aos = "fade-up" data-aos-duration = "2000">
                       <h2>Meet your Rivers<br>Assistant</h2>
                       <p>Ask it questions. Tell it to do things. 
                         It's your own personal Google, 
@@ -166,12 +185,12 @@
               <div id="menu1" class="tab-pane fade">
                 <div class="row">
                     <div class="col-lg-7 col-md-7 col-sm-12">
-                      <div class="photo-displayed text-center">
+                      <div class="photo-displayed text-center" data-aos = "fade-right" data-aos-duration = "2000">
                         <img src="images/01.png" alt="mobile"/>
                       </div>
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-12 topics">
-                      <div class="desc-displayed">
+                      <div class="desc-displayed" data-aos = "fade-up" data-aos-duration = "2000">
                         <h2>Meet your Rivers<br>Assistant</h2>
                         <p>Ask it questions. Tell it to do things. 
                           It's your own personal Google, 
@@ -242,27 +261,8 @@
             </div>
           </div>
         <!-- End Show Up Data -->
-
-        <!-- Start Smiles-2 Department -->
-        <div class="smiles-2">
-            <div class="container-fluid">
-              <div class="overlay">
-                  <h2>About Us</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Etiam facilisis, nibh eu venenatis gravida, ipsum lacus iaculis nulla,  
-                    Sed sollicitudin nec sapien vel pellentesque. Sed a nunc id dui dictum convallis a vel lorem.
-                     Maecenas id ipsum at nunc dapibus consequat. 
-                    Integer vestibulum scelerisque sapien, vel scelerisque dolor porttitor at their career and financial goals.
-                    </p>
-                  <a href="#">
-                    Reasons to Join
-                  </a>
-                </div>  
-            </div>
-          </div>
-        <!-- End Smiles-2 Department -->
         
-        <!-- Start About Rivers -->
+        <!-- Start Rivers in our life-->
         <div class="about-rivers">
           <div class="container">
             <h2 class="text-center">Rivers in Real Life</h2>
@@ -299,14 +299,14 @@
                 <div class="col-lg-6">
                   <div class="third-img">
                     <a href="#">
-                      <img src="images/0001.png" alt="">
+                      <img src="images/004.png" alt="">
                     </a>
                   </div>
                 </div>
             </div>
           </div>
         </div>
-        <!-- End About Rivers -->
+        <!-- End Rivers in our life -->
 
         <!-- Start Footer -->
         <div class="footer">
@@ -345,12 +345,19 @@
         </div>
         <!-- End Footer -->
 
+
+
         <!-- Jquery js -->
         <script src="js/jquery-3.2.1.js"></script>
         <!-- Popper js -->
         <script src="js/popper.min.js"></script> 
         <!-- Bootstrap js -->
         <script src="js/bootstrap.min.js"></script>
+        <!-- AOS -->
+        <script src="js/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
         <!-- Coding File -->
         <script src="js/main.js"></script>
     </body>

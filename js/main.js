@@ -4,6 +4,7 @@ $(function(){
         $(this).addClass('active').siblings().removeClass('active');
         // $(this).attr('color', '#F00 !important');
     });
+    
 
 });
 
