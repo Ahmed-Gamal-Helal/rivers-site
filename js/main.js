@@ -7,4 +7,7 @@ $(function(){
     
 
 });
-
+// AOS Set up
+AOS.init({
+    duration: 1600,
+  });
