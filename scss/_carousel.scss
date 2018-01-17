@@ -1,14 +1,11 @@
 .carousel {
-    // background-color: #FFF;;
-    // background: url('../images/bg-web.png');
-    background: url('../images/bg-web.png');
-    // padding-top: 10%;
+    background: linear-gradient(#e3e3e3, white);
 }
 .carousel-control-prev,
 .carousel-control-next {
     @include shadow(-4px 4px 3px rgba(0, 0, 0, .2));
-    height: 3em;
-    width: 3em;
+    height: 3.5em;
+    width: 3.5em;
     margin-top: 22%;
     background-color: $white;
     border-radius: 50%;
@@ -75,9 +72,12 @@
     }
 }
 @media (max-width:900px) { 
-    .carousel-control-prev,
-    .carousel-control-next {
-        display: none;
+    .carousel {
+        padding-top: 4em;
+        .carousel-control-prev,
+        .carousel-control-next {
+            display: none;
+        }
     }
 }
 
